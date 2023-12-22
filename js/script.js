@@ -7,7 +7,10 @@ createApp({
             count: 0,
             text: '',
             color: 'red',
-            string: "lorem ipsum dolor sit amet"
+            string: "lorem ipsum dolor sit amet",
+            num1: null,
+            num2: null,
+            result: null
         }
     },
     methods: {
@@ -22,11 +25,20 @@ createApp({
                 this.color = 'red'
             }
         },
-
         alertButton() {
             alert('Hello World!')
+        },
+        multiplyNumbers() {
+            if (isNaN(this.num1) || isNaN(this.num2)) {
+                alert("Inserisci 2 numeri");
+            } else {
+                this.result = this.num1 * this.num2;
+                return this.result;
+            }
+
         }
 
     }
 
-}).mount('#app'); 
+}).mount('#app');
+
