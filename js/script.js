@@ -4,7 +4,8 @@ createApp({
     data() {
         return {
             message: "Esempio di git workflow",
-            click: 0
+            count: 0,
+            text: ''
         }
     },
     methods: {
