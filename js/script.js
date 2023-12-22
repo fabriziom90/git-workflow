@@ -6,7 +6,8 @@ createApp({
             message: "Esempio di git workflow",
             count: 0,
             text: '',
-            color: 'red'
+            color: 'red',
+            string: "lorem ipsum dolor sit amet"
         }
     },
     methods: {
@@ -21,9 +22,11 @@ createApp({
                 this.color = 'red'
             }
         },
+
         alertButton() {
             alert('Hello World!')
         }
+
     }
 
-}).mount('#app');
+}).mount('#app'); 
