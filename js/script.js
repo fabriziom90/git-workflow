@@ -20,6 +20,9 @@ createApp({
             else {
                 this.color = 'red'
             }
+        },
+        alertButton() {
+            alert('Hello World!')
         }
     }
 
