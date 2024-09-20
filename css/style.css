@@ -33,3 +33,13 @@ header ul li a.nav-link{
         left: 0px;
     }
 }
+
+.img-overlay {
+    width: 100%;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
