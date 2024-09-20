@@ -1,3 +1,23 @@
-header a{
+header ul li a.nav-link{
     color: #fff;
+}
+
+#jumbotron{
+    background-image: url('../img/copertina_rpg.jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.content-jumbo{
+    max-width: 900px;
+    margin: 50px auto;
+    color: #fff;
+    padding: 175px 0;
+    text-align: center;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.5);
 }
