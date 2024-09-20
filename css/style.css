@@ -1,3 +1,35 @@
-header a{
+header ul li a.nav-link{
     color: #fff;
+}
+
+#jumbotron{
+    background-image: url('../img/copertina_rpg.jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.content-jumbo{
+    position: relative;
+    max-width: 900px;
+    margin: 50px auto;
+    color: #fff;
+    padding: 175px 0;
+    text-align: center;
+    animation: slide 2s;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+}
+
+@keyframes slide{
+    0%{
+        left: -50000px;
+    }
+
+    100%{
+        left: 0px;
+    }
 }
