@@ -34,12 +34,35 @@ header ul li a.nav-link{
     }
 }
 
-.img-overlay {
+.videogames {
+    padding-top: 30px;
+}
+
+.card-videogame {
+    position: relative;
+    margin: 15px 0px;
+}
+
+.img-videogame {
     width: 100%;
+    height: auto;
 }
 
 .text-overlay {
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    color:#fff;
+    padding: 0px 15px;
 }
+
+.card-videogame:hover .text-overlay {
+    opacity: 1;
+    background-color: rgba(0,0,0,0.5);
+  }
