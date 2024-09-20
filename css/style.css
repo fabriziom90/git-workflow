@@ -34,9 +34,31 @@ header ul li a.nav-link{
     }
 }
 
+#about {
+    padding: 50px 0;
+    background-color: rgba(10, 10, 10, 0.842);
+    color: white;
+}
+
 .about_us {
     text-align: center;
-    padding: 20px 140px;
+    padding: 40px 160px;
+}
+
+.about_us_title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, #2196F3, #64B5F6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about_us p {
+    line-height: 30px;
 }
 
 .about_us_img {
