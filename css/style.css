@@ -33,3 +33,36 @@ header ul li a.nav-link{
         left: 0px;
     }
 }
+
+#about {
+    padding: 50px 0;
+    background-color: rgba(10, 10, 10, 0.842);
+    color: white;
+}
+
+.about_us {
+    text-align: center;
+}
+
+.about_us_title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, #dfdfdf70, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about_us p {
+    line-height: 30px;
+}
+
+.about_us_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
