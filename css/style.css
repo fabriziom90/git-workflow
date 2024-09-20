@@ -33,3 +33,15 @@ header ul li a.nav-link{
         left: 0px;
     }
 }
+
+.about_us {
+    text-align: center;
+    padding: 20px 140px;
+}
+
+.about_us_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
