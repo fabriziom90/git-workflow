@@ -17,7 +17,7 @@ header ul li a.nav-link{
     color: #fff;
     padding: 175px 0;
     text-align: center;
-    animation: slide 1s;
+    animation: slide 2s;
 }
 
 .overlay{
